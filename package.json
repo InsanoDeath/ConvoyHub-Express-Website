@@ -1,0 +1,27 @@
+{
+  "name": "convoyhub-express-vtc",
+  "version": "1.0.3",
+  "description": "ConvoyHub Express - Express Delivery at your Doorstep.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "InsanoDeath",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "canvas": "^2.9.3",
+    "canvas-constructor": "^6.0.2",
+    "cookie-parser": "^1.4.6",
+    "countapi-js": "^1.0.2",
+    "croxydb": "^0.0.7",
+    "discord.js": "^13.3.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}

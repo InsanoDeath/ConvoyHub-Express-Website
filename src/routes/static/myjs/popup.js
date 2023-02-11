@@ -1,0 +1,1 @@
+(function($){$("#mymodal").modal({backdrop:"static",keyboard:!1,show:!0})})(jQuery);

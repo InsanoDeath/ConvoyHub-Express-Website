@@ -1,0 +1,252 @@
+<head>
+    <title>ConvoyHub</title>
+</head>
+<p class='copyright'>© ConvoyHub</p>
+<style>
+    @font-face {
+        font-family: Whitney;
+        src: url('https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff');
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: Whitney;
+        src: url('https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: Whitney;
+        src: url('https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: Whitney;
+        src: url('https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff');
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: Whitney;
+        src: url('https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff');
+        font-weight: 700;
+    }
+
+    body {
+        background-color: #36393e;
+        color: #dcddde;
+        font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+    .copyright {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+
+    .parent-container {
+        padding: 25px;
+        display: flex;
+    }
+
+    .avatar {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .info__guild-name {
+        font-size: 1.4em;
+    }
+
+    .info {
+        display: flex;
+        max-width: 100%;
+        margin: 0 5px 10px;
+    }
+
+    .info__channel-name {
+        font-size: 1.2em;
+    }
+
+    .info__guild-icon {
+        max-width: 88px;
+        max-height: 88px;
+    }
+
+    .info__metadata {
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    .info__guild-icon-container {
+        flex: 0;
+    }
+
+    
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* Copyright 2017 Sebastian Ouellette
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. */
+
+.embed {
+    margin: 0 0 7px 0;
+    background-color: #2f3136;
+    padding: 6px 15px 15px 15px;
+    border-radius: 5px;
+    border-left: 5px solid;
+    color: white;
+    min-height: 50px;
+    max-width: 512px;
+}
+
+.messageTimestamp + .embed {
+    margin-top: -20px;
+}
+
+.embedLargeIcon {
+    height: 90px;
+    border-radius: 5px;
+    float: right;
+}
+
+.embedSmallIcon {
+    height: 40px;
+    border-radius: 5px;
+    float: right;
+}
+
+.embedArticleLargeIcon {
+    height: 212px;
+    padding: 15px 0px 0px;
+    border-radius: 5px;
+}
+
+/*Author*/
+.embedAuthor {
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+
+.embedAuthorImg {
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+.embedAuthorName {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    font-size: 14px;
+    transform: translateY(-4px);
+    color: #aaa;
+}
+
+/*Title section*/
+.embedTitle {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.embedDescription {
+    margin: 5px 0 0 0;
+}
+
+.embedContent {
+    color: #aaa;
+    font-size: 15px;
+}
+
+.embedProvierName {
+    margin: 5px 0 5px 0;
+    font-size: 13px;
+}
+
+/*Fields*/
+.field {
+    margin: 10px 20px 0 0;
+}
+
+.fieldName {
+    color: #ddd;
+    margin: 0;
+}
+
+.fieldText {
+    margin: 0 0 0 5px;
+}
+
+/* Image */
+.embedImage {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*Footer*/
+.footer {
+    color: #888;
+    margin: 10px 0 0 0;
+}
+
+.footerText {
+    font-size: 12px;
+    margin: 0;
+}
+
+.bot_tag {
+    position: relative;
+    top: -0.2em;
+    margin-left: 10px;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    font-weight: 500;
+}
+
+.name-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.time_element {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+span.err {
+    color: red;
+}
+
+</style><div class="info"><div class="info__guild-icon-container"><img class="info__guild-icon" src="https://cdn.discordapp.com/icons/969647038138572881/63d44aada8c642ac90501862a9a9b40b.webp"></div><div class="info__metadata"><div class="info__guild-name">ConvoyHub</div><div class="info__channel-name">closed-che-insanodeath</div><div class="info__channel-message-count">Transcripted 3 messages.</div></div></div><div class="parent-container"><div class="avatar-container"><img src="https://cdn.discordapp.com/embed/avatars/1.png" class="avatar"></div><div class="message-container"><div class="name-container"><span>ConvoyHub Testor</span><span class="bot_tag">BOT</span><span class="time_element">12/12/2022, 1:20:41 PM</span></div><span></span><div class="embed"><p class="embedDescription embedContent"><div class="codeBlock codeBlockEmbed Ticket Controls.">Ticket Controls.</div></p></div></div></div><div class="parent-container"><div class="avatar-container"><img src="https://cdn.discordapp.com/embed/avatars/1.png" class="avatar"></div><div class="message-container"><div class="name-container"><span>ConvoyHub Testor</span><span class="bot_tag">BOT</span><span class="time_element">12/12/2022, 1:20:40 PM</span></div><span></span><div class="embed" style="border-color: #ed4245;"><p class="embedDescription embedContent"><span class="ping" 539738942346493952"="">@[CHE] InsanoDeath</span> Closed the ticket.</p></div></div></div><div class="parent-container"><div class="avatar-container"><img src="https://cdn.discordapp.com/embed/avatars/1.png" class="avatar"></div><div class="message-container"><div class="name-container"><span>ConvoyHub Testor</span><span class="bot_tag">BOT</span><span class="time_element">12/12/2022, 1:20:29 PM</span></div><span>&lt;@539738942346493952&gt; welcome &lt;@539738942346493952&gt;</span><div class="embed" style="border-color: #20ffc5;"><p class="embedDescription embedContent">This ticket was created regarding your application for ConvoyHub Express.
+To close this ticket react with 🔒</p><div class="footer"><p class="footerText">ConvoyHub Recruitment System</p></div></div></div></div>

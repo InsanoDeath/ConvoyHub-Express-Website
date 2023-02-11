@@ -1,0 +1,524 @@
+/* =================================================================== */
+/* Blue #2190E3
+====================================================================== */
+h1>span,
+.projectmanager h3,
+.projectmanager li a,
+.testimonials #quote-carousel h5,
+.services-box-item-content:before,
+.services-box-item-content h2,
+.social-icons ul li a:before,
+.info-map-boxes-item:before,
+.info-map-boxes-item h1,
+.info-map-boxes-item a,
+.services-box-item-cover:before,
+.services-box-item-cover:after,
+#back-top span:before,
+.videopromotion a i,
+.fact-badges h2 span,
+span.heart,
+a.link:hover,
+a.link:focus,
+a.link:active,
+.services .services-box-item-content h2,
+.btn-wrapper a,
+ul.navbar-nav>li.active>a,
+ul.navbar-nav>li>a:hover,
+ul.navbar-nav>li>a:focus,
+ul.navbar-nav>li>a:active,
+.navbar-nav .fa-search:hover,
+ul.navbar-nav>li.open>a,
+ul.navbar-nav>li.open>a:hover,
+ul.navbar-nav>li.open>a:focus,
+ul.navbar-nav>li.open>a:active,
+body.dark ul.navbar-nav>li.open>a,
+body.dark ul.navbar-nav>li.open>a:hover,
+body.dark ul.navbar-nav>li.open>a:focus,
+body.dark ul.navbar-nav>li.open>a:active,
+body.dark .latest-post .post-title a:hover,
+body.dark ul.navbar-nav>li.active>a,
+body.dark ul.navbar-nav>li>a:hover,
+body.dark .navbar-nav .fa-search:hover,
+.portfolio .caption a.title-link:hover h3,
+.latest-post .post-title a:hover,
+#footer .top-footer h4,
+.facts-footer>div h5,
+#footer .bottom-footer p a,
+#footer .top-footer .menu ul li a:hover,
+.about ul.nav.nav-tabs li.active a,
+.banner .breadcrumb>li a:hover,
+body.blog-page .meta span a,
+body.blog-page .meta span i,
+body.blog-page article h4:hover,
+.sidebar ul.nav.nav-tabs li a:hover,
+body.dark .sidebar ul.nav.nav-tabs li a:hover,
+.widget.recent-posts .entry-title a:hover,
+body.dark .widget.recent-posts .entry-title a:hover,
+.comments-list .comment-reply,
+.user-auth>div:nth-child(2) .form-container .form-group a,
+.countdown-amount,
+h4.panel-title a,
+.project .project-navigation nav ul li a,
+.shop-cart .secondary-button,
+.payment .tooltip-text {
+	color: #2190E3;
+}
+
+.custom-colorRotatingWords,
+.team .social-icons ul.social li a:hover,
+.team .social-icons ul.social li a:hover:before {
+	color: #2190E3 !important;
+}
+
+.latest-post .post-date,
+.shop-cart .secondary-button:hover,
+.shop-cart .secondary-button:focus,
+.shop-cart .secondary-button:active,
+.bx-wrapper .bx-controls-direction a,
+#carousel-testimonials .carousel-indicators li.active,
+body.dark.blog-page .pagination li.active a:hover,
+body.blog-page .pagination li.active a,
+ul.nav li.dropdown ul.dropdown-menu li a:hover,
+ul.nav li.dropdown ul.dropdown-menu li a:focus,
+ul.nav li.dropdown ul.dropdown-menu li a:active,
+ul.nav li.dropdown ul.dropdown-menu li.active a,
+.pricing-list .popular,
+.pricing-switcher .switch,
+.custom-button,
+.portfolio .nav-pills li:hover,
+.portfolio .nav-pills li.active,
+#back-top a:hover,
+.social-icons ul li a:hover,
+.custom-input-label::before,
+.testimonials #quote-carousel .carousel-indicators .active,
+.custom-form-group .input-group .input-group-addon,
+.submit-form button,
+body.double-diagonal .about::before,
+body.double-diagonal .faq::before,
+body.double-diagonal .terms::before,
+body.double-diagonal .shop-cart::before,
+body.double-diagonal .shop-checkout::before,
+body.double-diagonal .project::before,
+body.double-diagonal .services::before,
+body.double-diagonal .pricing::before,
+body.double-diagonal .portfolio::before,
+body.double-diagonal .team::before,
+body.double-diagonal .blog::before,
+body.double-diagonal .contact::before,
+body.double-diagonal .logos::before,
+.team-member:hover .team-member-caption,
+.btn-wrapper a:hover,
+.widget-tags ul>li a:hover {
+	background-color: #2190E3;
+}
+
+body.blog-page .pagination li.active a,
+.widget-tags ul>li a:hover,
+.shop-cart .secondary-button {
+	border: 1px solid #2190E3;
+}
+
+.about-right-side .full-image-container.hovered:before {
+	border-left: 5px solid #2190E3;
+}
+
+.projectmanager blockquote,
+#quote-carousel .carousel-indicators .active {
+	border-color: #2190E3;
+}
+
+.projectmanagerpicture {
+	border: 12px solid #2190E3;
+}
+
+.portfolio .nav-pills li {
+	border: 2px solid #2190E3;
+}
+
+#back-top a {
+	border: 2px solid #2190E3;
+}
+
+.team-member-caption {
+	border-top: 3px solid #2190E3;
+}
+
+.social-icons ul li a {
+	border: 3px solid #2190E3;
+}
+
+#footer .social-icons ul li a {
+	border: 2px solid #2190E3;
+}
+
+.banner {
+	height: 500px;
+	background-image: url(/images/trucks/9.png);
+	background-position: center;
+	padding: 150px 0;
+}
+
+.banner hr,
+body.dark .banner hr {
+	border-top: 5px solid #2190E3;
+}
+
+.banner hr {
+	visibility: hidden;
+	width: 80px;
+	margin-top: 32px;
+	margin-bottom: 22px;
+}
+
+body.dark .preloader .loader {
+	background-image: url(/images/preloader.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.btn-wrapper a {
+	border: 4px solid #2190E3;
+}
+
+@media (max-width: 991px) {
+
+	ul.nav li.dropdown ul.dropdown-menu li.active a,
+	body.dark ul.nav li.dropdown ul.dropdown-menu li.active a {
+		background: transparent !important;
+		color: #2190E3 !important;
+	}
+}
+
+@media (max-width:767px) {
+	.social-icons ul li a {
+		border: 2px solid #2190E3;
+	}
+
+	.about-right-side .full-image-container.hovered:before {
+		border-top: 5px solid #2190E3;
+		border-left: none;
+	}
+
+	.rtl-version .about-right-side .full-image-container.hovered:before {
+		border-right: none;
+	}
+}
+
+@media (max-width:576px) {
+	.about-content ul.nav.nav-tabs li.active a {
+		background: #2190E3;
+		color: #fff;
+	}
+}
+
+#footer .social-icons ul li {
+	margin: 0 10px 15px 0;
+}
+
+#footer .social-icons ul li a {
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+}
+
+.social-icons ul li {
+	display: inline-block;
+	margin: 0 15px 15px 0;
+	padding: 0;
+	vertical-align: top;
+	list-style: none;
+}
+
+.social-icons ul li a {
+	background: transparent;
+	display: block;
+	width: 63px;
+	height: 63px;
+	line-height: 59px;
+	border-radius: 50%;
+	-webkit-transition: 0.8s;
+	transition: 0.8s;
+	text-align: center;
+	text-decoration: none;
+	color: #fff !important;
+}
+
+.social-icons ul li a:hover:before {
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	color: #fff !important;
+}
+
+.social-icons ul li a:hover:before {
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	color: #fff !important;
+}
+
+.social-icons ul li a:before {
+	display: block;
+	-webkit-transition: 0.8s;
+	transition: 0.8s;
+	font-family: 'FontAwesome';
+	font-size: 30px;
+	text-align: center;
+}
+
+.social-icons ul li a[title="facebook"]:before {
+	content: "\f09a";
+}
+
+.social-icons ul li a[title="twitter"]:before {
+	content: "\f099";
+}
+
+.social-icons ul li a[title="google"]:before {
+	content: "\f0d5";
+}
+
+.social-icons ul li a[title="skype"]:before {
+	content: "\f17e";
+}
+
+.social-icons ul li a[title="instagram"]:before {
+	content: "\f16d";
+}
+
+.social-icons ul li a[title="linkedin"]:before {
+	content: "\f0e1";
+}
+
+.social-icons ul li a[title="instagram"]:before {
+	content: "\f16d";
+}
+
+.social-icons ul li a[title="youtube"]:before {
+	content: "\f167";
+}
+
+.social-icons ul li a[title="discord"]:before {
+	content: "\f392";
+}
+
+
+
+
+
+/* Team
+---------------------------------------- */
+
+.team .team-card {
+	/* width: 20%; */
+	padding: 20px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .05);
+	position: relative;
+	z-index: 5;
+}
+
+.team .title_holder {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.team .team-card .list {
+	position: absolute;
+	top: 60%;
+	left: 55%;
+	width: 100%;
+	opacity: 0;
+	margin-top: -45px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: .3s all ease;
+	transition: .3s all ease;
+	will-change: content;
+}
+
+.team .team-card:hover .list {
+	opacity: 1;
+}
+
+.team .team-card:hover .img_in {
+	opacity: 0.6;
+}
+
+.team ul.social li a {
+	border: 2px solid #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 36px;
+}
+
+.team ul.social li a:before {
+	color: #fff;
+	font-size: 20px;
+}
+
+.team .social-icons ul.social li a:hover {
+	background: #fff;
+}
+
+.custom-colorRotatingWords,
+.team .social-icons ul.social li a:hover,
+.team .social-icons ul.social li a:hover:before {
+	color: #2190E3 !important;
+}
+
+.team {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* Truck Moving */
+.oc-item img {
+	height: 170px;
+}
+
+#move {
+	position: absolute;
+}
+
+#move-tire1 {
+	position: absolute;
+}
+
+#move-tire2 {
+	position: absolute;
+}
+
+#move-tire3 {
+	position: absolute;
+}
+
+@media (min-width:1440px) {
+	#move {
+		left: -120px;
+	}
+
+	#move-tire1 {
+		left: 279px;
+		top: 232px;
+		width: 90px;
+	}
+
+	#move-tire2 {
+		left: 56px;
+		top: 232px;
+		width: 90px;
+	}
+
+	#move-tire3 {
+		left: -39px;
+		top: 236px;
+		width: 80px;
+	}
+}
+
+@media (max-width:1440px) {
+	@media (min-width:1200px) {
+		#move {
+			left: -120px;
+		}
+
+		#move-tire1 {
+			left: 283px;
+			top: 235px;
+			width: 90px;
+		}
+
+		#move-tire2 {
+			left: 59px;
+			top: 235px;
+			width: 89px;
+		}
+
+		#move-tire3 {
+			left: -43px;
+			top: 235px;
+			width: 83px;
+		}
+	}
+}
+	
+
+@media (max-width:1200px) {
+	@media (min-width:992px) {
+		#move {
+			left: -120px;
+		}
+
+		#move-tire1 {
+			left: 212px;
+			top: 195px;
+			width: 75px;
+		}
+
+		#move-tire2 {
+			left: 26px;
+			top: 195px;
+			width: 73px;
+		}
+
+		#move-tire3 {
+			left: -56px;
+			top: 195px;
+			width: 70px;
+		}
+	}
+}
+
+@media (max-width:992px) {
+	@media (min-width:768px) {
+		.static-bg {
+			padding-bottom: 430px;
+		}
+		
+		#move {
+			left: -20px;
+		}
+
+		#move-tire1 {
+			left: 495px;
+			top: 300px;
+			width: 112px;
+		}
+
+		#move-tire2 {
+			left: 212px;
+			top: 303px;
+			width: 106px;
+		}
+
+		#move-tire3 {
+			left: 81px;
+			top: 301px;
+			width: 106px;
+		}
+	}
+}
+
+@media (max-width:767px) {
+	#move {
+		display: none !important;
+	}
+
+	#move-tire1 {
+		display: none !important;
+	}
+
+	#move-tire2 {
+		display: none !important;
+	}
+
+	#move-tire3 {
+		display: none !important;
+	}
+}
